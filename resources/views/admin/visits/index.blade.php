@@ -14,8 +14,6 @@
                                 <th>Name</th>
                                 <th>Address</th>
                                 <th>Phone</th>
-                                <!-- <th>Email</th>
-                                <th>Start Date</th> -->
                             </tr>
                         </thread>
                         <tbody>
@@ -25,9 +23,6 @@
                                 <td>{{ $doctor->user->name }}</td>
                                 <td>{{ $doctor->address }}</td>
                                 <td>{{ $doctor->phone }}</td>
-                                <!-- <td>{{ $doctor->user->email }}</td>
-                                <td>{{ $doctor->startDate }}</td> -->
-                                <!-- <td><a href="{{ route('admin.doctors.show', $doctor) }}">View</a><td> -->
                             </tr>
                             @endforeach
 
